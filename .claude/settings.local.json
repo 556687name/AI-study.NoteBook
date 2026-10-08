@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "PowerShell(python -c \"import nbconvert, IPython; print\\('nbconvert', nbconvert.__version__\\); print\\('IPython', IPython.__version__\\)\")"
+      "PowerShell(python -c \"import nbconvert, IPython; print\\('nbconvert', nbconvert.__version__\\); print\\('IPython', IPython.__version__\\)\")",
+      "WebFetch(domain:www.bilibili.com)"
     ]
   }
 }
